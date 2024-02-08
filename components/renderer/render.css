@@ -1,0 +1,53 @@
+.weather-container {
+    margin-top: 1.5rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+    background: var(--soft);
+    border-radius: 1rem;
+}
+
+.main-texts {
+    display: flex;
+    align-items: center;
+}
+
+.temp {
+    font-size: xxx-large;
+    padding: 1.5rem 0.75rem 1.5rem 0;
+    border-right: 2px solid var(--soft);
+}
+
+.font-super,
+.location {
+    font-size: x-large;
+}
+
+.location-weather {
+    padding-left: 0.75rem;
+}
+
+.highlight {
+    color: var(--textHighlight);
+}
+
+.list-container {
+    padding-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.list-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: var(--primary);
+}
